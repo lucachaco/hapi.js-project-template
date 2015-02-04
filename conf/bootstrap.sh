@@ -10,4 +10,7 @@ dpkg-reconfigure locales
 
 apt-get install -y git
 
-
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+apt-get update
+sudo apt-get install -y nodejs
+sudo apt-get install -y build-essential
