@@ -9,6 +9,7 @@ locale-gen en_US.UTF-8
 dpkg-reconfigure locales
 
 apt-get install -y git
+apt-get install -y curl
 
 curl -sL https://deb.nodesource.com/setup | sudo bash -
 apt-get update
