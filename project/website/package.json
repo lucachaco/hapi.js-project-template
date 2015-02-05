@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "hapi": "^8.1.0"
+  },
+  "devDependencies": {
+    "karma": "^0.12.31"
   }
 }
